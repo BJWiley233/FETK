@@ -471,3 +471,7 @@ extern int wjac7_(integer *nx, integer *ny, integer *nz, integer *ipc, doublerea
 extern int wjac27_(integer *nx, integer *ny, integer *nz, integer *ipc, doublereal *rpc, doublereal *oc, doublereal *cc, doublereal *fc, doublereal *oe, doublereal *on, doublereal *uc, doublereal *one, doublereal *onw, doublereal *ue, doublereal *uw, doublereal *un, doublereal *us, doublereal *une, doublereal *unw, doublereal *use, doublereal *usw, doublereal *x, doublereal *w1, doublereal *w2, doublereal *r__, integer *itmax, integer *iters, doublereal *errtol, doublereal *omega, integer *iresid, integer *iadjoint);
 /*:ref: mresid7_1s__ 14 13 4 4 4 4 7 7 7 7 7 7 7 7 7 */
 /*:ref: mresid27_1s__ 14 23 4 4 4 4 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 */
+extern int c_vec__(doublereal *coef, doublereal *uin, doublereal *uout, integer *nx, integer *ny, integer *nz, integer *ipkey);
+extern int dc_vec__(doublereal *coef, doublereal *uin, doublereal *uout, integer *nx, integer *ny, integer *nz, integer *ipkey);
+extern doublereal c_scal__(doublereal *coef, doublereal *u, integer *ipkey);
+extern doublereal dc_scal__(doublereal *coef, doublereal *u, integer *ipkey);
