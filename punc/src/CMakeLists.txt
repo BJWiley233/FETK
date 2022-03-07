@@ -23,7 +23,7 @@ endif()
 
 # optional build of pmg
 if(BUILD_PMG)
-    include_directories(pmg)
+    include_directories(pmg vf2c/punc)
     add_subdirectory(pmg)
 endif()
 
