@@ -17,16 +17,6 @@ setup_for_build()
 #)
 # Add header files
 add_build_items(
-    TYPE EXTERNAL_HEADERS
-    ITEMS punc/varpack.h
-          punc/vblas.h
-          punc/vcgcode.h
-          punc/vlapack.h
-          punc/vpmg.h
-          punc/vf2c.h
-)
-
-add_build_items(
     TYPE INTERNAL_HEADERS
     ITEMS vpmg.h
 )
