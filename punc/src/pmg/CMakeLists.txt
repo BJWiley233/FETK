@@ -35,7 +35,7 @@ add_build_items(
 # Commented labels were how the source files were organized in the original Makefile.am
 add_build_items(
     TYPE SOURCES
-    ITEMS buildAd.c buildBd.c buildGd.c buildPd.c cgd.c cgmgd.c cgmgdrvd.c gsd.c matvecd.c mblasd.c mgcsd.c mgdrvd.c mgfasd.c mgsubd.c mikpckd.c mlinpckd.c ncgd.c ncgdrvd.c newdrvd.c newtond.c ngsd.c ngsdrvd.c ninterpd.c nrchd.c nrchdrvd.c nsmoothd.c nsord.c nsordrvd.c nwjd.c nwjdrvd.c powerd.c rchd.c smoothd.c sord.c wjd.c
+    ITEMS pdef.c rand.c secd.c buildAd.c buildBd.c buildGd.c buildPd.c cgd.c cgmgd.c cgmgdrvd.c gsd.c matvecd.c mblasd.c mgcsd.c mgdrvd.c mgfasd.c mgsubd.c mikpckd.c mlinpckd.c ncgd.c ncgdrvd.c newdrvd.c newtond.c ngsd.c ngsdrvd.c ninterpd.c nrchd.c nrchdrvd.c nsmoothd.c nsord.c nsordrvd.c nwjd.c nwjdrvd.c powerd.c rchd.c smoothd.c sord.c wjd.c
 )
 
 #message(STATUS "internal headers: ${INTERNAL_HEADERS}")
